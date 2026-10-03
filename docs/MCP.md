@@ -739,7 +739,7 @@ Creates and returns the MCP server instance.
 ```python
 from ragfs_mcp import create_server
 
-server = create_server()  # Returns MCPServer instance
+server = create_server()  # MCPServer on mcp 2.x, FastMCP on mcp 1.x
 ```
 
 ### main()
